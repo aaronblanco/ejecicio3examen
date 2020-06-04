@@ -11,10 +11,10 @@ class Ejer3Test {
 	
 
 		@ParameterizedTest (name = "{index} => Con entrada ({0}) sale {1}")
-		@CsvSource({"2, 1",
-					"5, 1",
-					"6, 1",
-					"14, 7"})
+		@CsvSource({"1, lunes",
+					"2, martes",
+					"3, miercoles",
+					"14, ERROR!"})
 		
 		void testdiaSemana(int input, String expected) {
 			Ejer3 c = new Ejer3();

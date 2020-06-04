@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-class Ejer3Test {
+class TestEjer3 {
 	
 
 		@ParameterizedTest (name = "{index} => Con entrada ({0}) sale {1}")

@@ -14,6 +14,11 @@ class Ejer3Test {
 		@CsvSource({"1, lunes",
 					"2, martes",
 					"3, miercoles",
+					"4, jueves",
+					"5, viernes",
+					"6, sabado",
+					"7, domingo",
+					"0, ERROR!",
 					"14, ERROR!"})
 		
 		void testdiaSemana(int input, String expected) {
